@@ -10,7 +10,6 @@ RtttlPlayer player(BUZZER_PIN);
 
 void setup() {
     Serial.begin(9600);
-    Serial.println("RTTTL player example");
 
     player.play_P(song);
 }
